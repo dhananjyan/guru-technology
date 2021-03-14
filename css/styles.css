@@ -10707,6 +10707,12 @@ section#contact form#contactForm :-ms-input-placeholder {
     header .masthead-subheading {
         text-align: center!important;
     }
+    .d-view {
+        display: none!important;
+    }
+    .m-view {
+        display: block!important;
+    }
 }
 
 .align-items-center {
@@ -10722,10 +10728,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 991px) {
     .d-view {
-        display: none;
+        display: block;
     }
     .m-view {
-        display: block!important;
+        display: none;
     }
 }
 
